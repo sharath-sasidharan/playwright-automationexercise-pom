@@ -1,0 +1,41 @@
+{
+  "searchTerms": {
+    "commonProduct": "T-Shirt",
+    "dressProduct": "Dress",
+    "menProduct": "Jeans",
+    "womenProduct": "Top"
+  },
+  "categories": {
+    "women": "Women",
+    "men": "Men",
+    "kids": "Kids",
+    "dress": "Dress",
+    "tshirts": "Tshirts"
+  },
+  "brands": {
+    "polo": "Polo",
+    "h&m": "H&M",
+    "madame": "Madame",
+    "mast": "Mast & Harbour",
+    "babyhug": "Babyhug",
+    "allen": "Allen Solly Junior",
+    "kookie": "Kookie Kids",
+    "biba": "Biba"
+  },
+  "productDetails": {
+    "quantity": "4",
+    "size": "M",
+    "color": "Blue"
+  },
+  "reviewData": {
+    "name": "Test Reviewer",
+    "email": "reviewer@example.com",
+    "review": "This is a great product! I highly recommend it to everyone. The quality is excellent and the price is very reasonable."
+  },
+  "scrollData": {
+    "subscriptionText": "SUBSCRIPTION",
+    "topPageText": "Full-Fledged practice website for Automation Engineers",
+    "scrollWaitTime": 2000,
+    "scrollBehavior": "smooth"
+  }
+}

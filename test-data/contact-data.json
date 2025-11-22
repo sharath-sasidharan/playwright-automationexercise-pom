@@ -1,0 +1,16 @@
+{
+  "contactForm": {
+    "name": "Test User",
+    "email": "testuser@example.com",
+    "subject": "Test Subject",
+    "message": "This is a test message for contact form testing."
+  },
+  "subscription": {
+    "email": "testuser@example.com"
+  },
+  "orderComments": {
+    "registerWhileCheckout": "Test order - Register while checkout",
+    "registerBeforeCheckout": "Test order - Register before checkout",
+    "loginBeforeCheckout": "Test order - Login before checkout"
+  }
+}

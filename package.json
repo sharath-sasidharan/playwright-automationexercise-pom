@@ -1,0 +1,36 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "playwright": "^1.55.1",
+    "playwright-core": "^1.55.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^2.15.1"
+  },
+  "scripts": {
+    "test": "playwright test --reporter=list",
+    "test:clean": "node -e \"require('fs').rmSync('allure-results', {recursive: true, force: true})\" && playwright test",
+    "test:allure": "node -e \"require('fs').rmSync('allure-results', {recursive: true, force: true})\" && playwright test && allure generate allure-results --clean && allure open",
+    "allure:clean": "node -e \"require('fs').rmSync('allure-results', {recursive: true, force: true}); require('fs').rmSync('allure-report', {recursive: true, force: true})\"",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open",
+    "allure:serve": "allure serve allure-results"
+  },
+  "config": {
+    "baseUrl": "https://automationexercise.com",
+    "timeouts": {
+      "default": 30000,
+      "short": 5000,
+      "long": 60000
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

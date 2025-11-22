@@ -1,0 +1,55 @@
+{
+  "commonTexts": {
+    "loggedInAs": "Logged in as",
+    "newUserSignup": "New User Signup!",
+    "accountCreated": "ACCOUNT CREATED!",
+    "accountDeleted": "ACCOUNT DELETED!",
+    "orderSuccess": "Your order has been placed successfully!",
+    "subscription": "SUBSCRIPTION",
+    "topPageText": "Full-Fledged practice website for Automation Engineers",
+    "allProducts": "All Products",
+    "testCases": "Test Cases",
+    "getInTouch": "GET IN TOUCH",
+    "proceedToCheckout": "Proceed To Checkout",
+    "placeOrder": "Place Order",
+    "payAndConfirm": "Pay and Confirm Order",
+    "downloadInvoice": "Download Invoice",
+    "continue": "Continue",
+    "addToCart": "Add to cart",
+    "viewCart": "View Cart",
+    "continueShopping": "Continue Shopping",
+    "viewProduct": "View Product",
+    "writeYourReview": "Write Your Review",
+    "thankYouForReview": "Thank you for your review.",
+    "recommendedItems": "RECOMMENDED ITEMS"
+  },
+  "commonSelectors": {
+    "homeSlider": ".carousel-inner",
+    "homeSliderAlt": ".slider",
+    "homePageIndicator": ".carousel-indicators",
+    "homePageContent": ".features_items",
+    "cartLink": "a[href=\"/view_cart\"]",
+    "cartLinkAlt": "a:has-text(\"Cart\")",
+    "productsLink": "a[href=\"/products\"]",
+    "testCasesLink": "a[href=\"/test_cases\"]",
+    "contactUsLink": "a[href=\"/contact_us\"]",
+    "homeLink": "a[href=\"/\"]",
+    "homeLinkAlt": "a:has-text(\"Home\")"
+  },
+  "commonTimeouts": {
+    "short": 5000,
+    "medium": 10000,
+    "long": 15000,
+    "extraLong": 30000,
+    "scrollWait": 2000
+  },
+  "commonScrollBehavior": {
+    "smooth": "smooth",
+    "instant": "instant"
+  },
+  "commonOrderComments": {
+    "default": "Test order comment",
+    "downloadInvoice": "Test order - Download invoice after purchase",
+    "addressVerification": "Test order - Address verification"
+  }
+}

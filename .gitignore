@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Playwright Test Results & Reports
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Allure Reports
+/allure-results/
+/allure-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

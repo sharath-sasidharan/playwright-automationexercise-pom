@@ -1,0 +1,35 @@
+{
+  "testUser": {
+    "firstName": "Test",
+    "lastName": "User",
+    "company": "QA Inc",
+    "address1": "123 Test Street",
+    "address2": "Suite 1",
+    "country": "Canada",
+    "state": "Ontario",
+    "city": "Toronto",
+    "zipcode": "A1A1A1",
+    "mobile": "+1-555-0100",
+    "password": "P@ssword123",
+    "birthDate": {
+      "day": "1",
+      "month": "January",
+      "year": "2000"
+    }
+  },
+  "loginCredentials": {
+    "email": "testuser@example.com",
+    "password": "P@ssword123"
+  },
+  "paymentData": {
+    "nameOnCard": "Test User",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2025"
+  },
+  "reviewData": {
+    "name": "Test Reviewer",
+    "review": "This is a great product! I highly recommend it to everyone."
+  }
+}
