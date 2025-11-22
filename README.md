@@ -1,4 +1,4 @@
-# Playwright POM End-to-End Suite for AutomationExercise
+<h1># Playwright POM End-to-End Suite for AutomationExercise</h1>
 
 An end-to-end test automation framework for https://automationexercise.com built with Playwright and the Page Object Model (POM). The suite validates critical e-commerce user journeys and provides rich Allure reports (screenshots, videos, traces) for fast debugging and CI integration.
 
